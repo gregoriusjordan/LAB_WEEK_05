@@ -45,6 +45,8 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.converter.scalars)
     implementation(libs.converter.moshi)
+    implementation("com.squareup.moshi:moshi-kotlin:1.13.0")
+    implementation("com.github.bumptech.glide:glide:5.0.5")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
